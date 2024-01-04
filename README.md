@@ -1,0 +1,1 @@
+Desigin Pattern Summary File
