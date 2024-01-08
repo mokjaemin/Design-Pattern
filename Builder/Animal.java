@@ -24,6 +24,10 @@ public class Animal {
                 '}';
     }
 
+    // 정적 내부 클래스 vs 비정적 내부 클래스
+    // - 정적 내부 클래스는 외부 클래스의 인스턴스 생성없이 사용 가능
+    // - 비정적 내부 클래스는 외부 클래스의 인스턴스가 생성되어야 사용 가능
+    // - 둘다 공통적으로 외부 클래스의 변수와 메서드에 접근 가능하다.
     static class Builder {
         private String name;
         private int age;
